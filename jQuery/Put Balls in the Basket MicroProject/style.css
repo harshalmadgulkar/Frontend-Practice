@@ -6,18 +6,28 @@
 #button{
     position: relative;
     left: 45vw;
-    margin: 10px;
+    margin: 20px;
 }
 
 #container{
     border: 2px solid black;
     border-top: 0;
-    height: 100px;
+    min-height: 100px;
+    height: auto;
     width: 90vw;
     margin: 0 auto;
-    position: relative;
+    margin-left: 5vw;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    align-items: flex-end;
+    flex-flow: row;
+    flex-wrap: wrap-reverse;
+    background-color: rgba(176, 255, 255, 0.719);
+}
+
+.ball{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-color: green;
 }

@@ -6,7 +6,7 @@
 	flex-direction: row;
 	flex-wrap:wrap;
 	align-items: center;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 #container div{
@@ -34,10 +34,10 @@
 	/* margin: 50px; */
 }
 
-/* #div4{
+#div4{
 	background-color: maroon;
-} */
+}
 
-/* #div5{
+#div5{
 	background-color: orange;
-} */
+}
