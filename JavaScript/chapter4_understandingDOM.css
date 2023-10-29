@@ -1,0 +1,38 @@
+#box{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#description{
+    position: relative;
+    display: flex;
+    direction: row;
+    justify-content: center;
+}
+
+#serch{
+    border: 1px solid black;
+}
+
+#outerDiv{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    border: 2px black;
+    margin: auto;
+}
+
+#innerDiv{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px black;
+    position: relative;
+    top: 25%;
+    left: 25%;
+}

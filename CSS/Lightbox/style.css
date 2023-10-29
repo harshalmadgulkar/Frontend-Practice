@@ -1,0 +1,29 @@
+#lightBox{
+  height: 0px;  
+  width: 0px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  transition: all 2s ease-in-out;
+}
+
+#lightBox:target{
+    height: 30%;
+    width: 30%;
+    background-color: lightgray;
+    top: 35%;
+    left: 35%;
+}
+
+#X{
+    position: relative;
+    left: 96%;
+    color: rgb(255, 0, 212);
+}
+
+p::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}

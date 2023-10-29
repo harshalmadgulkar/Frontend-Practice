@@ -1,0 +1,168 @@
+/* Basic Transition */
+
+/* div:hover{
+    width: 200px;
+    background-color: red;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    background-color: aquamarine;
+    transition: 2s ease-in-out;
+}  */
+
+/* --------------------------------------------- */
+
+/* translate and rotate from rectangle to circle */
+/* @keyframes changeshape{
+
+    from{
+        border-radius: 0%;
+        rotate: 0deg;
+    }
+
+    to{
+        border-radius: 50%;
+        rotate: 360deg;
+        translate: 200px;
+    }
+} */
+
+/* translate and rotate from rectangle to circle */
+/* div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: aquamarine;
+    animation: changeshape 1s ease-in-out 2 alternate;
+} */
+
+
+/* --------------------------------------------- */
+
+/* Bounce */
+/* @keyframes bounce{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translateY(-200px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+} */
+
+/* Bounce */
+/* div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    top: 40%;
+    left: 40%;
+    background-color: aquamarine;
+    animation: bounce 2s ease-in-out 1 ;
+} */
+
+/* ------------------------------------------- */
+
+/* Rotate */
+/* @keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+/* Rotate */
+div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: aquamarine;
+    animation: rotate 2s ease-in-out infinite alternate;
+}
+
+/* --------------------------------------------- */
+
+/* FadeIn */
+/* @keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
+
+/* FadeIn */
+/* h1{
+    text-align: center;
+    animation: fade-in 2s ease-in-out infinite alternate;
+} */
+
+/* --------------------------------------------- */
+
+
+/* Multiple Animation */
+
+/* div{
+    width: 200px;
+    height: 200px;
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    background-color: aquamarine;
+    animation-name: shapeChange, rotate, reduceSize;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite, infinite, infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rotate{
+    0%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes shapeChange{
+    100%{
+        border-radius: 50%;
+    }
+}
+
+@keyframes reduceSize{
+    100%{
+        width: 100px;
+        height: 100px;
+    }
+} */
+
+/* --------------------------------------------- */
+
+/* div{
+    width: 200px;
+    height: 200px;
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    background-color: rgb(193, 251, 58);
+    } */

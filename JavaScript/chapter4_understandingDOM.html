@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="chapter4_understandingDOM.css" />
+  </head>
+  <body>
+    <h1 id="one">Heading</h1>
+    <h1 id="two">Heading</h1>
+    <p class="para">This is a paragraph</p>
+
+    <!-- <button id="btn" onclick="alert('Hello !!! ')" > Say Hello! </button> -->
+    <div>
+      <button id="btn">Say Hello !</button>
+    </div>
+
+    <!-- Count Clicks
+Send Feedback
+Let's make a counter using JavaScript. But it's a bit different; it increases only when you click on a box.
+So create a big box in the center of the web page and add a counter below it.
+When you click on the box the counter should increases by one. -->
+
+    <div id="box"></div>
+    <h2 id="description">Box clicked&nbsp;<span id="count">0</span>&nbsp;Times</h2>
+
+    <input type="text" id="search">
+
+    <div id="outerDiv">
+      <div id="innerDiv"></div>
+    </div>
+
+
+    <script src="chapter4_understandingDOM.js"></script>
+    <!-- <script>
+        var helloBtn=document.getElementById('btn');
+        helloBtn.addEventListener('click',function () {
+            alert("Hello Internal Javascript");
+        })
+    </script> -->
+  </body>
+</html>
