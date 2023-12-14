@@ -13,10 +13,10 @@
 //     return sum;
 // }
 
-    // let N = parseInt(prompt("input N \n"));
-    // let sumOfEvenNumber = addEvenNumber(N);
-    // console.log(sumOfEvenNumber);
-    // console.log(N+N);
+//     let N = parseInt(prompt("input N \n"));
+//     let sumOfEvenNumber = addEvenNumber(N);
+//     console.log(sumOfEvenNumber);
+//     console.log(N+N);
 
 // const prompt = require('prompt-sync')();
 
@@ -89,7 +89,7 @@
 // console.log(arr.splice(3,1,24,53,64,64,66));
 
 // var arr2=[33,44,55,66,77];
-// console.log(arr.splice(2,1,arr2));
+// console.log(arr2.splice(2,1,arr2));
 
 // console.log(arr);
 // console.log(arr.length);
