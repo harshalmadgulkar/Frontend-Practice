@@ -7,10 +7,10 @@ headings[0].style.color= 'gray';
 console.log(headings);
 /*-------------For Button--------------*/
 
-/*var helloBtn = document.getElementById('btn');
+var helloBtn = document.getElementById('btn');
 helloBtn.addEventListener('click',function () {
     alert('Hello External Js');
-})*/
+})
 
 function say() {
     alert('Hello with Function');
